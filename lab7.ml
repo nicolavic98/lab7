@@ -197,7 +197,7 @@ object (this)
     width *. height
 
   method bounding_box : point * point =
-    (pos, ((fst pos)) +. width, (snd pos) +. height)
+    (pos, (fst pos) +. width, (snd pos) +. height)
 
   method center : point =
     (pos, ((fst pos)) +. (0.5 *. width), (snd pos) +. (0.5 *. height))
